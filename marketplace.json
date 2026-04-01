@@ -1,0 +1,14 @@
+{
+  "name": "f-rha-marketplace",
+  "owner": {
+    "name": "dio_dio",
+    "email": "denny41606@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "f-rha",
+      "source": "./plugins/F-RHA",
+      "description": "React UI components and hooks for the f-rha library"
+    }
+  ]
+}
