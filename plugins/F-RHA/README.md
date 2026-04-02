@@ -1,6 +1,37 @@
-# f-rha
+# f-rha Plugin
 
-A collection of React UI components and hooks for the f-rha library.
+A Claude Code plugin providing skills for the f-rha React component library.
+
+## Structure
+
+```
+F-RHA/
+├── .claude-plugin/
+│   └── plugin.json       # Plugin manifest
+├── CHANGELOG.md
+├── README.md
+└── skills/
+    ├── components/
+    │   ├── button/
+    │   │   ├── .claude-plugin/plugin.json
+    │   │   └── skills/button/SKILL.md
+    │   ├── dialog/
+    │   │   ├── .claude-plugin/plugin.json
+    │   │   └── skills/dialog/SKILL.md
+    │   ├── input/
+    │   │   ├── .claude-plugin/plugin.json
+    │   │   └── skills/input/SKILL.md
+    │   └── radio/
+    │       ├── .claude-plugin/plugin.json
+    │       └── skills/radio/SKILL.md
+    └── hooks/
+        ├── use-debounce/
+        │   ├── .claude-plugin/plugin.json
+        │   └── skills/use-debounce/SKILL.md
+        └── use-local-storage/
+            ├── .claude-plugin/plugin.json
+            └── skills/use-local-storage/SKILL.md
+```
 
 ## Skills
 
@@ -19,14 +50,6 @@ A collection of React UI components and hooks for the f-rha library.
 |-------|-------------|
 | `f-rha-use-debounce` | Debounce a rapidly changing value to reduce re-renders or API calls |
 | `f-rha-use-local-storage` | Persist React state to localStorage with JSON serialization |
-
-## Installation
-
-Install via Claude Code plugin manager:
-
-```bash
-claude plugin install f-rha
-```
 
 ## Usage
 

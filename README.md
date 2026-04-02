@@ -1,8 +1,48 @@
 # F-RHA Marketplace
 
-> 為 [f-rha](https://github.com/dio_dio/f-rha) React 元件庫打造的 Claude Code 技能包
+> 為 [f-rha](https://github.com/dio_dio/f-rha) React 元件庫打造的 Claude Code Plugin Marketplace
 
 在 Claude Code 中使用 f-rha 時，自動獲得元件 Props 說明、用法範例、以及最佳實踐建議。
+
+---
+
+## 架構
+
+```
+F-RHA-marketplace/
+├── .claude-plugin/
+│   └── marketplace.json          # Marketplace 目錄設定
+├── README.md
+└── plugins/
+    └── F-RHA/
+        ├── .claude-plugin/
+        │   └── plugin.json       # Plugin manifest
+        ├── CHANGELOG.md
+        ├── README.md
+        └── skills/
+            ├── components/
+            │   ├── button/
+            │   │   ├── .claude-plugin/plugin.json
+            │   │   └── skills/button/SKILL.md
+            │   ├── dialog/
+            │   │   ├── .claude-plugin/plugin.json
+            │   │   └── skills/dialog/SKILL.md
+            │   ├── input/
+            │   │   ├── .claude-plugin/plugin.json
+            │   │   └── skills/input/SKILL.md
+            │   └── radio/
+            │       ├── .claude-plugin/plugin.json
+            │       └── skills/radio/SKILL.md
+            └── hooks/
+                ├── use-debounce/
+                │   ├── .claude-plugin/plugin.json
+                │   └── skills/use-debounce/SKILL.md
+                └── use-local-storage/
+                    ├── .claude-plugin/plugin.json
+                    └── skills/use-local-storage/SKILL.md
+```
+
+每個 skill 都是獨立的 plugin，擁有自己的 `.claude-plugin/plugin.json` manifest 和 `skills/<name>/SKILL.md` 內容。
 
 ---
 
@@ -48,23 +88,6 @@ claude plugin install f-rha
 
 ```
 你：useDebounce 要怎麼搭配搜尋輸入框？
-```
-
----
-
-## 技能清單
-
-```
-plugins/F-RHA/
-├── skills/
-│   ├── components/
-│   │   ├── button/          → f-rha-button
-│   │   ├── dialog/          → f-rha-dialog
-│   │   ├── input/           → f-rha-input
-│   │   └── radio/           → f-rha-radio
-│   └── hooks/
-│       ├── use-debounce/    → f-rha-use-debounce
-│       └── use-local-storage/ → f-rha-use-local-storage
 ```
 
 ---
