@@ -1,5 +1,5 @@
 {
-  "name": "f-rha",
+  "name": "f-rha-use-debounce",
   "description": "React UI components and hooks for the f-rha library. Includes Button, Dialog, Input, Radio, useDebounce, and useLocalStorage.",
   "version": "1.0.0",
   "author": {

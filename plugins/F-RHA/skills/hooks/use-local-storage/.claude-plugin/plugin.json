@@ -1,0 +1,9 @@
+{
+  "name": "f-rha-use-local-storage",
+  "description": "React UI components and hooks for the f-rha library. Includes Button, Dialog, Input, Radio, useDebounce, and useLocalStorage.",
+  "version": "1.0.0",
+  "author": {
+    "name": "dio_dio",
+    "email": "denny41606@gmail.com"
+  }
+}
