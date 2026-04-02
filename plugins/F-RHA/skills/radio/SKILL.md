@@ -1,6 +1,7 @@
 ---
 name: f-rha-radio
 description: Use when the user wants to use, customize, or ask about the Radio component from the f-rha library. Covers radio group options (string array or object array), controlled selection, group label, and per-option or group-level disabled state.
+version: 1.0.0
 ---
 
 # Radio — f-rha

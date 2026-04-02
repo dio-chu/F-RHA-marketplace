@@ -1,6 +1,7 @@
 ---
 name: f-rha-input
 description: Use when the user wants to use, customize, or ask about the Input component from the f-rha library. Covers label, placeholder, controlled value, error messages, disabled state, and input types.
+version: 1.0.0
 ---
 
 # Input — f-rha

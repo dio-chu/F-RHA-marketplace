@@ -1,6 +1,7 @@
 ---
 name: f-rha-button
-description: Use when the user wants to use, customize, or ask about the Button component from the f-rha library. Covers variants (primary, secondary, outline), sizes (sm, md, lg), disabled state, and click handling 測試檔案是否直接覆蓋.
+description: Use when the user wants to use, customize, or ask about the Button component from the f-rha library. Covers variants (primary, secondary, outline), sizes (sm, md, lg), disabled state, and click handling.
+version: 1.0.0
 ---
 
 # Button — f-rha

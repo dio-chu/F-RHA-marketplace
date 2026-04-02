@@ -1,6 +1,7 @@
 ---
 name: f-rha-dialog
 description: Use when the user wants to use, customize, or ask about the Dialog component from the f-rha library. Covers open/close control, title, body content, footer actions, width customization, overlay click and Escape key to close.
+version: 1.0.0
 ---
 
 # Dialog — f-rha

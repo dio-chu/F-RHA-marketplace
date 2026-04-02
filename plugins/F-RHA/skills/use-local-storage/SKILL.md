@@ -1,6 +1,7 @@
 ---
 name: f-rha-use-local-storage
 description: Use when the user wants to persist React state to localStorage, read stored values on mount, or clear a stored key. Covers controlled get/set/remove with JSON serialization and error handling.
+version: 1.0.0
 ---
 
 # useLocalStorage — f-rha

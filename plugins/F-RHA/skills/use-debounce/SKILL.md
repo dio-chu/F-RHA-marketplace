@@ -1,6 +1,7 @@
 ---
 name: f-rha-use-debounce
 description: Use when the user wants to debounce a rapidly changing value (e.g. search input, resize events) to avoid excessive re-renders or API calls. Returns a delayed copy of the value that only updates after the specified delay.
+version: 1.0.0
 ---
 
 # useDebounce — f-rha
