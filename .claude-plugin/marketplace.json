@@ -12,10 +12,7 @@
     {
       "name": "f-rha",
       "description": "React UI components and hooks for the f-rha library",
-      "source": {
-        "source": "./",
-        "path": "plugins/F-RHA"
-      }
+      "source": "https://github.com/dio-chu/F-RHA-marketplace.git"
     }
   ]
 }
