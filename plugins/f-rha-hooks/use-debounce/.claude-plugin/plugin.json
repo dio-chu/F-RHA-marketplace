@@ -1,0 +1,7 @@
+{
+  "name": "f-rha-use-debounce",
+  "description": "useDebounce hook from the f-rha library. Debounces a rapidly changing value to avoid excessive re-renders or API calls.",
+  "author": {
+    "name": "dio_dio"
+  }
+}

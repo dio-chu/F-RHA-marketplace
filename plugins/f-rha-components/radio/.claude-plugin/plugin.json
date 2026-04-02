@@ -1,0 +1,7 @@
+{
+  "name": "f-rha-radio",
+  "description": "Radio component from the f-rha library. Radio button group for single-selection with string or object options.",
+  "author": {
+    "name": "dio_dio"
+  }
+}

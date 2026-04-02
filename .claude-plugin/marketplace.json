@@ -10,9 +10,34 @@
   },
   "plugins": [
     {
-      "name": "f-rha",
-      "description": "React UI components and hooks for the f-rha library",
-      "source": "./plugins/F-RHA"
+      "name": "f-rha-button",
+      "description": "Button component from the f-rha library.",
+      "source": "./plugins/f-rha-components/button"
+    },
+    {
+      "name": "f-rha-dialog",
+      "description": "Dialog component from the f-rha library.",
+      "source": "./plugins/f-rha-components/dialog"
+    },
+    {
+      "name": "f-rha-input",
+      "description": "Input component from the f-rha library.",
+      "source": "./plugins/f-rha-components/input"
+    },
+    {
+      "name": "f-rha-radio",
+      "description": "Radio component from the f-rha library.",
+      "source": "./plugins/f-rha-components/radio"
+    },
+    {
+      "name": "f-rha-use-debounce",
+      "description": "useDebounce hook from the f-rha library.",
+      "source": "./plugins/f-rha-hooks/use-debounce"
+    },
+    {
+      "name": "f-rha-use-local-storage",
+      "description": "useLocalStorage hook from the f-rha library.",
+      "source": "./plugins/f-rha-hooks/use-local-storage"
     }
   ]
 }

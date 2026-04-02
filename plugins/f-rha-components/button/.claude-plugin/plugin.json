@@ -1,0 +1,7 @@
+{
+  "name": "f-rha-button",
+  "description": "Button component from the f-rha library. Variants: primary, secondary, outline. Sizes: sm, md, lg.",
+  "author": {
+    "name": "dio_dio"
+  }
+}

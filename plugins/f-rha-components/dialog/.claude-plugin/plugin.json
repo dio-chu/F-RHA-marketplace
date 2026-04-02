@@ -1,0 +1,7 @@
+{
+  "name": "f-rha-dialog",
+  "description": "Dialog component from the f-rha library. Modal with overlay, title, footer, and keyboard (Escape) close support.",
+  "author": {
+    "name": "dio_dio"
+  }
+}

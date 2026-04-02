@@ -1,0 +1,7 @@
+{
+  "name": "f-rha-use-local-storage",
+  "description": "useLocalStorage hook from the f-rha library. Persists React state to localStorage with JSON serialization and functional updater support.",
+  "author": {
+    "name": "dio_dio"
+  }
+}

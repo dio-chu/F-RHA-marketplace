@@ -1,0 +1,7 @@
+{
+  "name": "f-rha-input",
+  "description": "Input component from the f-rha library. Text input with label, placeholder, error message, and disabled state.",
+  "author": {
+    "name": "dio_dio"
+  }
+}
