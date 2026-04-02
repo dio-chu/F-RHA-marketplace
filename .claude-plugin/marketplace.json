@@ -4,11 +4,18 @@
     "name": "dio_dio",
     "email": "denny41606@gmail.com"
   },
+  "metadata": {
+    "description": "A collection of F-RHA plugins",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "f-rha",
-      "source": "./plugins/F-RHA",
-      "description": "React UI components and hooks for the f-rha library"
+      "description": "React UI components and hooks for the f-rha library",
+      "source": {
+        "source": "./",
+        "path": "plugins/F-RHA"
+      }
     }
   ]
 }
