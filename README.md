@@ -14,32 +14,26 @@ F-RHA-marketplace/
 │   └── marketplace.json          # Marketplace 目錄設定
 ├── README.md
 └── plugins/
-    └── F-RHA/
-        ├── .claude-plugin/
-        │   └── plugin.json       # Plugin manifest
-        ├── CHANGELOG.md
-        ├── README.md
-        └── skills/
-            ├── components/
-            │   ├── button/
-            │   │   ├── .claude-plugin/plugin.json
-            │   │   └── skills/button/SKILL.md
-            │   ├── dialog/
-            │   │   ├── .claude-plugin/plugin.json
-            │   │   └── skills/dialog/SKILL.md
-            │   ├── input/
-            │   │   ├── .claude-plugin/plugin.json
-            │   │   └── skills/input/SKILL.md
-            │   └── radio/
-            │       ├── .claude-plugin/plugin.json
-            │       └── skills/radio/SKILL.md
-            └── hooks/
-                ├── use-debounce/
-                │   ├── .claude-plugin/plugin.json
-                │   └── skills/use-debounce/SKILL.md
-                └── use-local-storage/
-                    ├── .claude-plugin/plugin.json
-                    └── skills/use-local-storage/SKILL.md
+    ├── f-rha-components/
+    │   ├── button/
+    │   │   ├── .claude-plugin/plugin.json
+    │   │   └── skills/button/SKILL.md
+    │   ├── dialog/
+    │   │   ├── .claude-plugin/plugin.json
+    │   │   └── skills/dialog/SKILL.md
+    │   ├── input/
+    │   │   ├── .claude-plugin/plugin.json
+    │   │   └── skills/input/SKILL.md
+    │   └── radio/
+    │       ├── .claude-plugin/plugin.json
+    │       └── skills/radio/SKILL.md
+    └── f-rha-hooks/
+        ├── use-debounce/
+        │   ├── .claude-plugin/plugin.json
+        │   └── skills/use-debounce/SKILL.md
+        └── use-local-storage/
+            ├── .claude-plugin/plugin.json
+            └── skills/use-local-storage/SKILL.md
 ```
 
 每個 skill 都是獨立的 plugin，擁有自己的 `.claude-plugin/plugin.json` manifest 和 `skills/<name>/SKILL.md` 內容。
@@ -68,8 +62,11 @@ F-RHA-marketplace/
 
 ## 安裝
 
-```bash
-claude plugin install f-rha
+在 Claude Code 中透過 Marketplace 安裝：
+
+```
+Plugins > Marketplaces > Add Marketplace
+https://github.com/dio-chu/F-RHA-marketplace.git
 ```
 
 安裝後，在任何使用 f-rha 的專案中，Claude 會自動套用對應技能。
